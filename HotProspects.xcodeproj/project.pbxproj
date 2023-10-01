@@ -11,6 +11,9 @@
 		523BB5FB2AC1EED4006F1DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523BB5FA2AC1EED4006F1DE5 /* ContentView.swift */; };
 		523BB5FD2AC1EED6006F1DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523BB5FC2AC1EED6006F1DE5 /* Assets.xcassets */; };
 		523BB6002AC1EED6006F1DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523BB5FF2AC1EED6006F1DE5 /* Preview Assets.xcassets */; };
+		52EC262A2AC96CFE00743166 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EC26292AC96CFE00743166 /* ProspectsView.swift */; };
+		52EC262C2AC96D0800743166 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EC262B2AC96D0800743166 /* MeView.swift */; };
+		52EC262E2AC9816E00743166 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EC262D2AC9816E00743166 /* Prospect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		523BB5FA2AC1EED4006F1DE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		523BB5FC2AC1EED6006F1DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		523BB5FF2AC1EED6006F1DE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52EC26292AC96CFE00743166 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		52EC262B2AC96D0800743166 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		52EC262D2AC9816E00743166 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				523BB5F82AC1EED4006F1DE5 /* HotProspectsApp.swift */,
 				523BB5FA2AC1EED4006F1DE5 /* ContentView.swift */,
+				52EC262D2AC9816E00743166 /* Prospect.swift */,
+				52EC26292AC96CFE00743166 /* ProspectsView.swift */,
+				52EC262B2AC96D0800743166 /* MeView.swift */,
 				523BB5FC2AC1EED6006F1DE5 /* Assets.xcassets */,
 				523BB5FE2AC1EED6006F1DE5 /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EC262C2AC96D0800743166 /* MeView.swift in Sources */,
+				52EC262E2AC9816E00743166 /* Prospect.swift in Sources */,
+				52EC262A2AC96CFE00743166 /* ProspectsView.swift in Sources */,
 				523BB5FB2AC1EED4006F1DE5 /* ContentView.swift in Sources */,
 				523BB5F92AC1EED4006F1DE5 /* HotProspectsApp.swift in Sources */,
 			);
@@ -280,6 +292,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +322,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
